@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ccs/form.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Cadastro</title>
 </head>
@@ -20,7 +20,7 @@
         </nav>
     </header>
     <div>
-        <h1 id="Titulo">Faça seu cadastro aqui!</h1>
+        <h1 id="titulo">Faça seu cadastro aqui!</h1>
         <h2 class="subtitulo">Insira as suas informações aqui</h2>
     </div>
     <form>
@@ -92,6 +92,22 @@
             <label for="tecnologia1">Go</label>                 
             </label>
         </div>
+        <fieldset>
+            <div class="campo">
+                <br>
+                <label for="experiencia">
+                    <strong>Conte nos um pouco mais sobre suas experiências:</strong>                    
+                </label>
+                <textarea name="experiencia" id="esperienciaa" cols="40" rows="6"></textarea>
+            </div>
+            <div class="campo">
+                <label for="arquivo">
+                    <strong>Escolha uma foto</strong>
+                </label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+            <button class="btn " type="submit" onsubmit="">Enviar</button>
+        </fieldset>
     </form>
     
 
