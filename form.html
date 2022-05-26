@@ -21,7 +21,79 @@
     </header>
     <div>
         <h1 id="Titulo">Faça seu cadastro aqui!</h1>
+        <h2 class="subtitulo">Insira as suas informações aqui</h2>
     </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>                
+                <input type="text" name="nome"  id="nome" required> 
+            </div>
+            <div class="campo">
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>                
+                    <input type="text" name="nome"  id="sobrenome" required> 
+                </div>
+        </fieldset>
+        <div class="campo">
+            <label for="email">
+                <strong>Email</strong>
+                <input type="email" name="email" id="email" placeholder="nome@exemplo.com" required>
+            </label>
+        </div>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="senha">
+                    <strong>Digite sua senha</strong>
+                </label>
+                <input type="password" name="senha" id="senha">
+            </div>
+        </fieldset>
+        <div class="campo"></div>
+        <label><strong>Qual sua especialidade</strong>
+    <label>
+    </label>
+        <input type="radio" name="dev" value="frontend" checked>FrontEnd
+    </label>
+    </label>
+        <input type="radio" name="dev" value="backend">BackEnd
+    </label>
+    </label>
+        <input type="radio" name="dev" value="fullstack">FullStack
+        </label>         
+
+        <div class="campo">
+            <label for="senioridade">
+                <strong>Senioridade</strong>
+            </label>
+            <select id="senioridade"> required
+            <option selected disabled value="">Selecione</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Senior</option>
+        </select>
+        </div>
+        <fieldset class="grupo"></fieldset>
+        <div id="check">
+            <label><strong>Selecione as tecnologias que utiliza</strong></label><br><br>
+            <input type="checkbox" name="tecnologia" id="tecnologia1" value="HTML">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia2" value="CSS">
+            <label for="tecnologia1">CSS</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia3" value="JavaScript"> 
+            <label for="tecnologia1">JavaScript</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia4" value="Java"> 
+            <label for="tecnologia1">Java</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia5" value="PHP"> 
+            <label for="tecnologia1">PHP</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia6" value="Python"> 
+            <label for="tecnologia1">Python</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia7" value="Go">
+            <label for="tecnologia1">Go</label>                 
+            </label>
+        </div>
+    </form>
+    
 
 
 
