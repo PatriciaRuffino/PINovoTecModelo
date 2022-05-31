@@ -57,5 +57,13 @@ input, select, textarea, button{
     width: 4em;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-    border: 0%;
+    border: 0;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #FFf2E7;
+    box-shadow: inset 2px 2px 2px (0,0,0,0.2);
 }
