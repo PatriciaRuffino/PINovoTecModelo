@@ -33,14 +33,13 @@ body {
     font-size: 18px;
     color: #FFF2E7;
 }
-.cabecalho-menu-lista{
+.cabecalho-menu-item{
     text-decoration: none;
-    color: #FFF2E7;
+    color: #ECD6C4;
     cursor: pointer;
 }
 .cabecalho-menu-item:hover{
-    color: #ECD6C4;
-    cursor: pointer;
+    color: #FFF2E7;
 }
 .cabecalho-menu-lista{
     list-style: none;
