@@ -87,6 +87,10 @@ font-weight: 400;
     background-color: #fff2ef;
     cursor: pointer;
 }
+.imagem-novobot{
+    padding-top: 48px;
+    height: 430px;
+}
 .conteudo-secundario{
 display: flex;
 Flex-direction:column;
