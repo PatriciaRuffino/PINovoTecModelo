@@ -19,7 +19,10 @@
 .lista-ferramenta{
     display: flex;
     direction: column;
-    text-decoration: none;
+    justify-content: center;
+}
+.lista{
+    list-style: none;
 }
 .minhaimagem{
     padding: 48px;
@@ -28,8 +31,8 @@
 
 .htmlimage{
     height: 200px;
-    
- 
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cssimage{
     height: 200px;
